@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asta</title>
+<meta name="description" content="Asta is a private assistant app used only by its owner.">
+<style>
+  :root { --bg: #f7f8fa; --text: #1c2430; --muted: #5a6573; --link: #0b6e6e; --rule: #dde2e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11161d; --text: #e6eaef; --muted: #9aa5b1; --link: #5fd4c4; --rule: #2a323d; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 48px 16px; }
+  h1 { margin: 0 0 8px; font-size: 2rem; }
+  p.lead { margin-top: 0; color: var(--muted); }
+  a { color: var(--link); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Asta</h1>
+  <p class="lead">A private assistant app with one user: its owner.</p>
+
+  <p>Asta runs on its owner's own server. It is not offered to the public, and there is no sign-up.</p>
+
+  <p>With the owner's permission, Asta reads and updates the owner's own Google Sheets, Docs, Drive files,
+  Calendar events and contacts. It uses them to keep personal planning spreadsheets and schedules up to date
+  when the owner asks.</p>
+
+  <p>How Asta handles Google data is set out in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>Asta is a personal project and is not affiliated with Google.</footer>
+</main>
+</body>
+</html>

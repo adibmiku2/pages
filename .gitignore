@@ -1,0 +1,12 @@
+# Allow-list: this repository is public, so only the files below may ever be tracked.
+# Add a file here deliberately, then add it to ALLOWED in scripts/privacy-check.cjs too.
+*
+!.gitignore
+!README.md
+!index.html
+!privacy.html
+!scripts/
+!scripts/privacy-check.cjs
+!scripts/git-hooks/
+!scripts/git-hooks/pre-commit
+!scripts/git-hooks/pre-push
