@@ -1,8 +1,8 @@
 # Asta pages
 
-Public homepage and privacy policy for Asta, a private assistant app with one user. Google requires both
+Public homepage and privacy policy for Asta, a private assistant with one user. Google requires both
 pages before a personal Google Cloud OAuth app can be published, which stops its sign-in tokens expiring
-every 7 days.
+every 7 days. Two of the owner's OAuth apps link here: the server agent's and the `gws` command-line tool's.
 
 - Homepage: <https://adibmiku2.github.io/pages/>
 - Privacy policy: <https://adibmiku2.github.io/pages/privacy.html>
